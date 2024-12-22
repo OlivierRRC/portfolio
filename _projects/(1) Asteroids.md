@@ -1,7 +1,7 @@
 ---
 name: Asteroids
 tools: [p5js]
-image: ../assets/NecromacerPost/Cover.jpg
+image: https://www.shutterstock.com/image-vector/grunge-red-work-process-square-260nw-1035090301.jpg
 description: Classic asteroids game built using p5js.
 ---
 
