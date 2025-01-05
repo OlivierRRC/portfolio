@@ -9,3 +9,11 @@
 - name: Blender
   percentage: 70
   color: primary
+
+- name: Computer Repair
+  percentage: 75
+  color: primary
+
+- name: Workplace Comunication
+  percentage: 80
+  color: primary
