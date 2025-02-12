@@ -22,8 +22,14 @@ permalink: /
     height:50%;
 }
 
-[data-theme="light"] .test{ filter: invert(20%) sepia(14%) saturate(519%) hue-rotate(169deg) brightness(65%) contrast(87%);}
-[data-theme="dark"] .test{ filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(94deg) brightness(108%) contrast(106%); }
+.test{
+    max-width: 50%;
+    margin:auto;
+    display:flex;
+}
+
+[data-theme="light"] .test{ filter: brightness(0) saturate(100%) invert(7%) sepia(13%) saturate(358%) hue-rotate(155deg) brightness(92%) contrast(92%);}
+[data-theme="dark"] .test{ filter: brightness(0) saturate(100%) invert(84%) sepia(100%) saturate(2%) hue-rotate(262deg) brightness(106%) contrast(101%); }
 
 </style>
 
