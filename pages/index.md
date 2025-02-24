@@ -33,6 +33,25 @@ permalink: /
 
 </style>
 
+# Who Am I?
+
+<script>
+let date = new Date()
+let age;
+
+if(date.getMonth() >= 1 && date.getDate() >= 9){
+    age = date.getFullYear()-2005
+}else{
+    age = date.getFullYear()-2006
+}
+</script>
+
+I'm a <script>document.write(age)</script> year old game development student from Winnipeg Manitoba. I'm passionate about writing code to make games come to life, and making interactive stories that are only possible in games.
+
+In my free time, I love reading books, watching movies, and collecting vinyl records.
+
+Take a look at my <a href="url">projects</a> to see examples of my skills.
+
 <div class="skills">
 <div class="row skills">
     <div class="column skills">
