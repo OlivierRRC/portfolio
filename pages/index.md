@@ -50,7 +50,7 @@ I'm a <script>document.write(age)</script> year old game development student fro
 
 In my free time, I love reading books, watching movies, and collecting vinyl records.
 
-Take a look at my <a href="url">projects</a> to see examples of my skills.
+Take a look at my <a href="projects/">projects</a> to see examples of my skills.
 
 <div class="skills">
 <div class="row skills">
