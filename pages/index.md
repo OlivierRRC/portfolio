@@ -39,9 +39,10 @@ permalink: /
 let date = new Date()
 let age;
 
-if(date.getMonth() >= 1 && date.getDate() >= 9){
+if((date.getMonth() == 1 && date.getDate() >= 9) || date.getMonth() > 1){
     age = date.getFullYear()-2005
-}else{
+}
+else{
     age = date.getFullYear()-2006
 }
 </script>
