@@ -13,19 +13,19 @@ permalink: /
 .column.skills {
     position: relative;
     top: 50%;
-
-     flex: 20%;
-     padding: 5px;
+    flex: 20%;
 }
 
 .skills {
-    height:50%;
+    
 }
 
 .test{
-    max-width: 50%;
+    max-width: 75%;
     margin:auto;
     display:flex;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 [data-theme="light"] .test{ filter: brightness(0) saturate(100%) invert(7%) sepia(13%) saturate(358%) hue-rotate(155deg) brightness(92%) contrast(92%);}
@@ -52,7 +52,7 @@ I'm a <script>document.write(age)</script> year old game development student fro
 In my free time, I love reading books, watching movies, and collecting vinyl records.
 
 Take a look at my <a href="projects/">projects</a> to see examples of my skills.
-
+<div class="main">
 <div class="skills">
 <div class="row skills">
     <div class="column skills">
@@ -70,5 +70,6 @@ Take a look at my <a href="projects/">projects</a> to see examples of my skills.
     <div class="column skills">
         <img src="assets/Icons/SkillIcons-05.svg" alt="UnrealEngine" width="100%" class="test">
     </div>
+</div>
 </div>
 </div>
