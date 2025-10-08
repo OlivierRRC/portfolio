@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "70e5794cb6498a9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "70740a153129ab19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f015412883c34ade",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d71881a34b005cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b2930e811cbe706",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e79ead4db1ea2f7c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ef1e50832bc34cea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "47e391a7143a33ed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "84269ad2f25da542",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee263ea5f7cec3b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "903412a11dd06c7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d373209389cfe95a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d2fd0f0befc973b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "40593fd14b616160",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e79ead4db1ea2f7c",
+  "lastOpenFiles": [
+    "test/_config.yml",
+    "test/Gemfile",
+    "test",
+    "screenshot.gif",
+    "portfolyou-jekyll-theme.gemspec",
+    "docs/documentation/partials/04-adding-content/09-social-networks.md",
+    "docs/documentation/partials/04-adding-content/08-timeline-events.md",
+    "docs/documentation/partials/04-adding-content/07-skills-categories.md",
+    "docs/documentation/partials/04-adding-content/06-skills.md",
+    "docs/documentation/partials/04-adding-content/05-external-content.md",
+    "docs/documentation/partials/04-adding-content/04-pages.md",
+    "docs/documentation/partials/04-adding-content/03-posts.md",
+    "docs/documentation/partials/04-adding-content/02-remote-projects.md",
+    "docs/documentation/partials/04-adding-content/01-local-projects.md",
+    "docs/documentation/partials/00-common/03-toc.md",
+    "docs/documentation/partials/00-common/02-description.md",
+    "docs/documentation/partials/00-common/01-repo-buttons.html",
+    "docs/documentation/partials/05-dependencies.md",
+    "docs/documentation/partials/06-credits.md",
+    "docs/documentation/partials/04-adding-content.md",
+    "docs/documentation/partials/04-adding-content",
+    "docs/documentation/partials/03-customization.md",
+    "docs/documentation/partials/02-installation.md",
+    "docs/documentation/partials/01-features.md",
+    "docs/documentation/partials/00-common",
+    "docs/_projects/(6) Dummy Project.md",
+    "docs/_projects/(5) The Fabulous.md",
+    "docs/_projects/(4) VVG on GitHub.md",
+    "docs/_projects/(3) Empty Project.md",
+    "docs/_projects/(2) Awesome Project.md",
+    "docs/_projects/(1) PlaceHolder Project.md",
+    "docs/_posts/2019-02-20-digital-minimalism.md",
+    "docs/_posts/2019-02-15-learn-react-js.md",
+    "docs/_elements/21-task-list.html",
+    "docs/_elements/19-videos.html",
+    "docs/_elements/20-tables.html",
+    "docs/_elements/18-carousel.html"
+  ]
+}
