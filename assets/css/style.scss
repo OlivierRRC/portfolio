@@ -1,3 +1,252 @@
 ---
 ---
+
 @import "portfolYOU";
+
+$color-main: #28a745;
+$color-main: #489e37;
+$color-main: #36542f;
+$color-main: #88a66b;
+
+[data-theme="dark"] #theme-toggler:before {
+  content: "☀";
+}
+
+[data-theme="light"] #theme-toggler:before {
+  content: "🕶";
+}
+
+a {
+  color: $color-main;
+  &:hover {
+    color: darken($color: $color-main, $amount: 10%);
+  }
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+  background-color: darken($color: $color-main, $amount: 10%) !important;
+}
+
+.badge-primary {
+  background-color: $color-main;
+}
+
+.bg-primary {
+  background-color: $color-main !important;
+}
+
+.btn-outline-primary {
+  color: $color-main;
+  border-color: $color-main;
+  &:hover {
+    background-color: $color-main;
+    border-color: $color-main;
+  }
+  &:active {
+    background-color: $color-main !important;
+    border-color: $color-main !important;
+  }
+}
+
+.text-primary {
+  color: $color-main !important;
+}
+
+.border-primary {
+  border-color: $color-main !important;
+}
+
+.markdown-body {
+  a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(
+      .no-underline
+    ) {
+    color: $color-main;
+
+    &:hover {
+      color: $color-main;
+    }
+
+    &::after {
+      background: $color-main;
+    }
+  }
+
+  blockquote {
+    border-left: 0.25em solid $color-main;
+  }
+
+  table:not(.highlight) {
+    th {
+      background-color: $color-main;
+    }
+  }
+}
+
+#privacy-link {
+  &:hover {
+    color: $color-main;
+  }
+
+  &::after {
+    background: $color-main;
+  }
+}
+
+.fa-circle-xmark {
+  color: $color-main;
+}
+
+#error-linkedin-link {
+  color: $color-main;
+
+  &:hover {
+    color: $color-main;
+  }
+
+  &::after {
+    background: $color-main;
+  }
+}
+
+.form-control:focus {
+  border-color: $color-main;
+}
+
+.post-metadata {
+  .tag:hover {
+    background-color: $color-main;
+  }
+}
+
+//about timeline
+.timeline-body {
+  &:after {
+    background-color: $color-main;
+  }
+  .timeline-item {
+    &:after {
+      // Circle
+      border: 4px solid $color-main;
+    }
+  }
+}
+//navbar links
+.link-after {
+  background: $color-main;
+}
+
+/*
+.markdown-body blockquote {
+  border-color: $color-main;
+}
+
+.badge-primary {
+  background-color: $color-main;
+}
+
+a.bg-primary:hover {
+  background-color: darken($color: $color-main, $amount: 10%) !important;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: $color-main;
+  border-color: $color-main;
+}
+
+.post-metadata {
+  .tag:hover {
+    background-color: $color-main;
+  }
+}
+
+a {
+  color: $color-main;
+  &:hover {
+    color: darken($color: $color-main, $amount: 10%);
+  }
+  &:link {
+    &:hover {
+      color: darken($color: $color-main, $amount: 10%) !important;
+      text-decoration-color: $color-main !important;
+    }
+  }
+}
+
+.btn-outline-primary {
+  //background-color: $color-main;
+  color: $color-main;
+  border-color: $color-main;
+
+  &:hover {
+    background-color: $color-main;
+    border-color: $color-main;
+  }
+
+  &:active {
+    background-color: $color-main;
+    border-color: $color-main;
+  }
+}
+
+.text-primary {
+  color: $color-main !important;
+  &:hover {
+    //background-color: $color-main;
+    //border-color: $color-main;
+  }
+}
+.bg-primary {
+  background-color: $color-main !important;
+}
+.border-primary {
+  border-color: $color-main !important;
+  &:hover {
+    //background-color: $color-main;
+    //border-color: $color-main;
+  }
+}
+
+.timeline-body {
+  &:after {
+    background-color: $color-main;
+  }
+  .timeline-item {
+    &:after {
+      border: 4px solid $color-main;
+    }
+  }
+}
+
+.link-after {
+  background: {
+    color: $color-main;
+  }
+}
+.nav-link,
+.navbar-brand {
+  &::after {
+    background: {
+      color: $color-main;
+    }
+  }
+}
+.nav-item.active {
+  &::after {
+    background: {
+      color: $color-main;
+    }
+  }
+}
+.navbar-brand {
+  &::after {
+    background: {
+      color: $color-main;
+    }
+  }
+}
+*/
