@@ -11,13 +11,32 @@
             "id": "f015412883c34ade",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_projects/(1) Asteroids.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "(1) Asteroids"
+            }
+          },
+          {
+            "id": "d7f5bea3804fd48f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_projects/(7) Snake Zine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for (7) Snake Zine"
             }
           },
           {
@@ -108,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_projects/(7) Snake Zine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from (7) Snake Zine"
             }
           },
           {
@@ -136,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "_projects/(7) Snake Zine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of (7) Snake Zine"
             }
           }
         ]
@@ -162,13 +184,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "e79ead4db1ea2f7c",
+  "active": "d7f5bea3804fd48f",
   "lastOpenFiles": [
-    "test/_config.yml",
-    "test/Gemfile",
-    "test",
-    "screenshot.gif",
-    "portfolyou-jekyll-theme.gemspec",
+    "pages/about.md",
+    "_projects/(7) Snake Zine.md",
+    "_projects/(6) FallingSand.md",
+    "assets/SnakeZine/BeautyCover.png",
+    "assets/SnakeZine",
+    "assets/New folder",
+    "_projects/(1) Asteroids.md",
+    "README.md",
+    "assets/RuleTilePost/Translation.webp",
+    "assets/RuleTilePost/ShaderChain.webp",
+    "assets/RuleTilePost/Screenshot.webp",
+    "assets/RuleTilePost/NeighboursDiagram.webp",
+    "assets/RuleTilePost/PossibleTiles.webp",
+    "assets/RuleTilePost/Example1.webp",
+    "assets/RuleTilePost/3DMockup.webp",
+    "assets/RuleTilePost",
+    "assets/NecromacerPost/umlDiagram.webp",
+    "assets/NecromacerPost/umlDiagram.svg",
+    "assets/NecromacerPost",
+    "pages/tags.html",
+    "pages/projects.html",
+    "pages/index.md",
+    "pages/404.html",
+    "pages",
+    "localServer.txt",
+    "assets/photos",
+    "_projects/(5) Dialogue.md",
+    "_projects/(3) Necromancy.md",
+    "_projects/(4) Rule Tile.md",
+    "_projects/(2) SeadogSailors.md",
     "docs/documentation/partials/04-adding-content/09-social-networks.md",
     "docs/documentation/partials/04-adding-content/08-timeline-events.md",
     "docs/documentation/partials/04-adding-content/07-skills-categories.md",
@@ -180,26 +227,9 @@
     "docs/documentation/partials/04-adding-content/01-local-projects.md",
     "docs/documentation/partials/00-common/03-toc.md",
     "docs/documentation/partials/00-common/02-description.md",
-    "docs/documentation/partials/00-common/01-repo-buttons.html",
     "docs/documentation/partials/05-dependencies.md",
     "docs/documentation/partials/06-credits.md",
     "docs/documentation/partials/04-adding-content.md",
-    "docs/documentation/partials/04-adding-content",
-    "docs/documentation/partials/03-customization.md",
-    "docs/documentation/partials/02-installation.md",
-    "docs/documentation/partials/01-features.md",
-    "docs/documentation/partials/00-common",
-    "docs/_projects/(6) Dummy Project.md",
-    "docs/_projects/(5) The Fabulous.md",
-    "docs/_projects/(4) VVG on GitHub.md",
-    "docs/_projects/(3) Empty Project.md",
-    "docs/_projects/(2) Awesome Project.md",
-    "docs/_projects/(1) PlaceHolder Project.md",
-    "docs/_posts/2019-02-20-digital-minimalism.md",
-    "docs/_posts/2019-02-15-learn-react-js.md",
-    "docs/_elements/21-task-list.html",
-    "docs/_elements/19-videos.html",
-    "docs/_elements/20-tables.html",
-    "docs/_elements/18-carousel.html"
+    "docs/documentation/partials/03-customization.md"
   ]
 }
