@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/index.md",
+                "file": "_projects/(7) Snake Zine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "(7) Snake Zine"
             }
           }
         ],
@@ -186,6 +186,7 @@
   },
   "active": "d7f5bea3804fd48f",
   "lastOpenFiles": [
+    "pages/index.md",
     "pages/about.md",
     "_projects/(7) Snake Zine.md",
     "_projects/(6) FallingSand.md",
@@ -207,7 +208,6 @@
     "assets/NecromacerPost",
     "pages/tags.html",
     "pages/projects.html",
-    "pages/index.md",
     "pages/404.html",
     "pages",
     "localServer.txt",
