@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f015412883c34ade",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_projects/(1) Asteroids.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(1) Asteroids"
-            }
-          },
-          {
             "id": "d7f5bea3804fd48f",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "(7) Snake Zine"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,27 +169,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "d7f5bea3804fd48f",
+  "active": "e79ead4db1ea2f7c",
   "lastOpenFiles": [
+    "_site/assets/SnakeZine/GameScreenshot.webp",
+    "_site/assets/SnakeZine/Screenshot 2025-10-11 232105.webp",
+    "assets/SnakeZine/GameScreenshot.webp",
+    "_site/assets/SnakeZine/ProductShot.webp",
+    "assets/SnakeZine/ProductShot.webp",
+    "_site/assets/SnakeZine/Product Shot.webp",
+    "_projects/(7) Snake Zine.md",
+    "_site/assets/SnakeZine/PXL_20251012_024359153.MP2.webp",
+    "_site/Pasted image 20251011174544.png",
+    "_projects/(3) Necromancy.md",
+    "_projects/(1) Asteroids.md",
+    "_site/assets/SnakeZine/yarsGameplay.webp",
+    "_site/assets/SnakeZine/yarsCover.webp",
+    "_site/assets/SnakeZine/RecordPlayer.webp",
+    "_projects/(2) SeadogSailors.md",
+    "_projects/(4) Rule Tile.md",
     "pages/index.md",
     "pages/about.md",
-    "_projects/(7) Snake Zine.md",
     "_projects/(6) FallingSand.md",
-    "assets/SnakeZine/BeautyCover.png",
     "assets/SnakeZine",
     "assets/New folder",
-    "_projects/(1) Asteroids.md",
     "README.md",
-    "assets/RuleTilePost/Translation.webp",
-    "assets/RuleTilePost/ShaderChain.webp",
-    "assets/RuleTilePost/Screenshot.webp",
-    "assets/RuleTilePost/NeighboursDiagram.webp",
-    "assets/RuleTilePost/PossibleTiles.webp",
-    "assets/RuleTilePost/Example1.webp",
-    "assets/RuleTilePost/3DMockup.webp",
     "assets/RuleTilePost",
-    "assets/NecromacerPost/umlDiagram.webp",
-    "assets/NecromacerPost/umlDiagram.svg",
     "assets/NecromacerPost",
     "pages/tags.html",
     "pages/projects.html",
@@ -213,9 +202,6 @@
     "localServer.txt",
     "assets/photos",
     "_projects/(5) Dialogue.md",
-    "_projects/(3) Necromancy.md",
-    "_projects/(4) Rule Tile.md",
-    "_projects/(2) SeadogSailors.md",
     "docs/documentation/partials/04-adding-content/09-social-networks.md",
     "docs/documentation/partials/04-adding-content/08-timeline-events.md",
     "docs/documentation/partials/04-adding-content/07-skills-categories.md",
