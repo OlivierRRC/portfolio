@@ -10,6 +10,10 @@ description: A mini 8 page zine I made on a whim which teaches the reader how to
 ---
 # Little Snake Zine
 ![../assets/SnakeZine/ProductShot.webp](../assets/SnakeZine/ProductShot.webp)
+<style>
+[data-theme="light"] .svg{ filter: brightness(0) saturate(100%) invert(7%) sepia(13%) saturate(358%) hue-rotate(155deg) brightness(92%) contrast(92%);}
+[data-theme="dark"] .svg{filter: brightness(0) saturate(100%) invert(84%) sepia(100%) saturate(2%) hue-rotate(262deg) brightness(106%) contrast(101%); }
+</style>
 ## Ideation
 When I was growing up, digital media was on the cutting edge. I can still remember going into a Blockbuster to get a laughy taffy and rent a movie. Soon, Blockbuster was gone. Netflix and Spotify were on the rise and it seemed the era of physical media was over.
 
@@ -27,7 +31,7 @@ That's when I thought of it, what if instead of buying a game outright, do-it-yo
 I decided make this project as a test to see if the idea was feasible. I wanted to have a product within a week, so I decided on the 8 page zine format to keep things small. I also needed a small game, so I searched my brain for the simplest game I could think of; Snake.
 
 ![Screenshot of final product gameplay](../assets/SnakeZine/GameScreenshot.webp)
-*Above is a screenshot of my final implementation of snake*
+*Above is a screenshot of my final implementation of snake.*
 ## Making the Game
 ### Choosing the Platform
 With snake chosen as my game of choice, the next big choice was what framework I was going to build it on-top of. I myself am most comfortable with unity and unreal, and although you could build snake in either one of these engines, the installation instructions alone would probably take up most of the 8 pages I had budgeted.
@@ -35,10 +39,15 @@ With snake chosen as my game of choice, the next big choice was what framework I
 That's when I found PICO-8, which is what's known as a fantasy console. A fantasy console is an imaginary games console that has never existed physically. They are typically quite simplistic, and emulate the feel of older consoles like the NES and the Atari 2600. 
 
 PICO-8 just so happened to also have a free, in browser educational version, which was perfect for my purposes. Free meant that anyone with a computer could follow the guide, and in browser meant there was no installation required.
+<center>
+{% include elements/button.html link="https://www.pico-8-edu.com/"  text="Try PICO-8" %}
+</center>
 ### Writing Concise Code
-- write something here about writing the code long at first and then short after
-- write about how making the code shorter made it harder to understand, which was a sacrifice for the 8 page constraint
-- write about how i used the tab feature to make sure all the code written per page is visible at once
+PICO-8 uses a special flavor of the Lua programming language. I'm not super familiar with Lua, but the fundamentals of most languages are similar enough that I could get by.
+
+When first writing the code, I just wanted to get to a minimum viable product. I didn't worry too much about making the code short, or very understandable. I just needed to know that it would work.
+
+Once I had the snake moving, I could shift my focus on shortening the code. I believe that short code usually isn't the best code, especially in terms of understandability. Making the code super short was a sacrifice I had to make to get everything to fit in the zine. If I end up making another game-zine in the future, I would probably opt for more, larger pages to add more educational value to it.
 ## Design Inspiration
 Wanting this project to reflect the bygone era when physical game cartridges were widespread, I looked towards graphic design from the Atari era for inspiration.
 
@@ -58,22 +67,55 @@ In order to capture this design, I decided to use two different visual languages
 ### Cover Art
 When designing the cover of the zine, I really wanted to capture the detail and shading that these classic covers had. Although traditional art isn't my strong suit, I'm pretty good at graphic design through image manipulation. I found some nice stock images, and threw them together while adding some shadows. Because I wanted to keep printing costs low, I opted to add a dithering effect to the images on the cover. This both helped with cost by keeping things black and white, and helped with the color cohesion of the image.
 
-//put an image of the the image on the front cover
+![image design on the front cover](../assets/SnakeZine/CoverDesign.webp)
 
 I found a free font that reminded me of classic americana. Even though the Atari boxes used a more smooth and futuristic font, I preferred my choice for this project because it helped give a more retro look.
-
-//put an image of the font choice
+<br>
+<br>
+<img src="../assets/SnakeZine/FontCover.svg" class="svg">
+<br>
+### Interior Design
+When designing the inside of the zine, I was thinking of it as the content of the "game". Just like how in Atari games they used blocky, pixelated graphics, I found some blocky, pixelated fonts to use for my copy.
 
 I found three different fonts to use. One larger font for headers and footers. One more average font for most of the written content. And last but not least, I found the file for the font used in the PICO-8 text editor, which I of course used for the code.
 
 //put image of fonts laid out nicely
-### Interior Design
-When designing the inside of the zine, I was thinking of it as the content of the "game". Just like how in Atari games they used blocky, pixelated graphics 
+//use an svg as the image cuz itll look real nice and change colors and stuff
+
+In retrospect, the PICO-8 font is so small it borders on an accessibility problem for the readability of the zine. Next time I could probably double the size of it without the zine suffering in terms of style.
 ## Writing the Copy
-- write about how it all miracoulously came together
-- write about wishing i could add more detail
+I wrote all the copy for the zine directly in InDesign. Surprisingly, it all just kind of came together. I would paste in my code, and then write instructions and explanations around it.
+
+Again due to the size constraint of the zine, I couldn't get into too much detail about individual steps. I think that's the main point where this zine fails, even though you'll end up with a game, you probably won't understand why.
 ## Printing Challenges
-- write about the bad alignment and resolution of most printers
-- write about the cost of a print shot
+Once I was ready to start printing, that's where the bigger challenges started to present themselves. I didn't have a home printer at the time, so I had to do all my printing on the printers at RRC. 
+
+The trouble was that I had designed the zine to take up an entire standard page, but the RRC print release didn't let me tell the printer not to shrink my design. That meant I had to crop the paper after it had been printed.
+
+I also found some problems with the quality of the printers, sometimes the alignment would be off, others the resolution wasn't up to snuff.  
+
+This all led me to eventually putting the project on hold. Until I can figure out low cost, high quality printing, I can't really move forward with this.
 ## Next Steps
-- write a reflection about finishing and expanding on this project, even making it a larger and longer zine to fit more inside.
+It's not the best feeling to give up on a project like this, something that I feel so proud of. Since giving up on the project, I've learned more about zine printing, and I feel like I could make a better product if I start from scratch.
+
+Regardless, I think I executed well on my vision, and I think I proved my concept to myself. 
+
+Zines might not be the revolutionary future of physical game releases, but I think they certainly have a place as a collectable and educational tool.
+![Image of the full zine](../assets/SnakeZine/FullZine.webp)
+
+<p class="text-center">
+{% include elements/button.html link="../assets/SnakeZine/pico-snake.p8" text="Download Code" %}
+
+{% include elements/button.html link="../assets/SnakeZine/SnakeZine.pdf"  text="Download Printable PDF" %}
+</p>
+<script>
+document.querySelectorAll('a[href$=".pdf"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const a = document.createElement('a');
+    a.href = this.href;
+    a.download = '';
+    a.click();
+  });
+});
+</script>
