@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "84269ad2f25da542",
@@ -171,6 +172,8 @@
   },
   "active": "d7f5bea3804fd48f",
   "lastOpenFiles": [
+    "_site/assets/SnakeZine/Pixel Fonts.svg",
+    "assets/SnakeZine/Pixel Fonts.svg",
     "assets/SnakeZine/CoverDesign.webp",
     "_projects/(7) Snake Zine.md",
     "assets/SnakeZine/FontCover.svg",
@@ -187,7 +190,6 @@
     "Pasted image 20251011174544.png",
     "assets/SnakeZine/pico-snake.p8",
     "_projects/(3) Necromancy.md",
-    "_site/assets/SnakeZine/GameScreenshot.webp",
     "_projects/(1) Asteroids.md",
     "_projects/(2) SeadogSailors.md",
     "_projects/(4) Rule Tile.md",
