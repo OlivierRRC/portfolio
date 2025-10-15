@@ -47,7 +47,7 @@ else{
 }
 </script>
 
-I'm a <script>document.write(age)</script> year old game development student from Winnipeg Manitoba. I'm passionate about writing code to make games come to life, and making interactive stories that are only possible in games.
+I'm a <script>document.write(age)</script> year-old game developer from Winnipeg, Manitoba. I'm passionate about writing code to make games come to life, and making interactive stories that are only possible in games.
 
 In my free time, I love reading books, watching movies, and collecting vinyl records.
 
